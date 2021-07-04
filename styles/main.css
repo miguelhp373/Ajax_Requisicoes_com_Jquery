@@ -1,0 +1,92 @@
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+        margin: 0 auto;
+        padding: 0 auto;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .column_center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .area{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        background-color: #587291;
+        border-radius: 8px;
+    }
+    .container > .content{
+        
+        width: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cep_field{
+        padding: 10px;
+        width: 200px;
+        margin: 5px;
+        border: none;
+        border-radius: 8px;
+        outline: 0;
+    }
+
+    .btn_submit{
+        padding: 10px;
+        width: 224px;
+        height: 40px;
+        margin: 5px;
+        border: none;
+        border-radius: 8px;
+        outline: 0;
+        transition: 0.2s;
+    }
+
+    .btn_submit:hover{
+        filter: brightness(90%);
+    }
+
+    h1{
+        text-align: center;
+        color: #FFFF;
+
+    }
+
+    .col-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg{
+        width: 100%;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
